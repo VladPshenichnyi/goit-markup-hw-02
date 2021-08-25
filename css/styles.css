@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color: #212121;
+  --second-text-colot: #757575;
+  --primary-bg-color: #ffffff;
+  --second-bg-color: #2f303a;
+  --option-bg-color: #f5f4fa;
+  --luck-color: #2196f3;
+  --luck-active-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/* Стили для Студии */
+/* Шапка (Верхняя линия) */
+.header {
+  background: var(--primary-bg-color);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.logo-part {
+  color: var(--luck-color);
+}
+/* Hero секция */
+.hero {
+  background: var(--second-bg-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  background: var(--luck-color);
+  color: var(--luck-active-color);
+}
+/* Наши особенности */
+.feature {
+  background: var(--primary-bg-color);
+}
+/* Заглавия секций */
+.title-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}

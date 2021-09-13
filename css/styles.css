@@ -7,10 +7,11 @@
   --luck-color: #2196f3;
   --luck-active-color: #ffffff;
 }
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+
 /* Стили для Студии */
 /* Шапка (Верхняя линия) */
 .header {

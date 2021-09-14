@@ -1,3 +1,4 @@
+/*  */
 :root {
   --primary-text-color: #212121;
   --second-text-colot: #757575;
@@ -7,51 +8,103 @@
   --luck-color: #2196f3;
   --luck-active-color: #ffffff;
 }
-.body {
+/* Для всего тела */
+body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-style: normal;
+  color: var(--primary-text-color);
 }
-
-/* Стили для Студии */
-/* Шапка (Верхняя линия) */
-.header {
-  background: var(--primary-bg-color);
+/* Ссылки */
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
-.logo {
+.link:hover,
+.link:focus {
+  cursor: pointer;
+  color: var(--luck-color);
+}
+h2,
+h3 {
+  font-weight: bold;
+}
+/* Лого в шапке */
+.logo-link {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #212121;
 }
-.logo-part {
+.logo-first {
   color: var(--luck-color);
 }
+.header {
+  font-weight: 500;
+}
+.nav-link {
+  color: var(--primary-text-color);
+}
+
 /* Hero секция */
 .hero {
   background: var(--second-bg-color);
+  text-align: center;
 }
+
 .hero-title {
-  color: #ffffff;
+  color: var(--luck-active-color);
 }
 .hero-button {
+  cursor: pointer;
   background: var(--luck-color);
   color: var(--luck-active-color);
 }
-/* Наши особенности */
-.feature {
-  background: var(--primary-bg-color);
+.team {
+  background-color: var(--option-bg-color);
 }
-/* Заглавия секций */
-.title-section {
+.team h3 {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+}
+/* Подвал */
+footer {
+  font-weight: 400;
+  background-color: var(--second-bg-color);
+}
+/* Лого в подвале */
+.logo-link-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--luck-active-color);
+}
+.address {
+  color: var(--luck-active-color);
+}
+.address-link .link {
+  color: #ffffff;
+  opacity: 0.6;
+}
+/* Портфолио */
+.button {
+  background-color: var(--option-bg-color);
+  color: var(--primary-text-color);
+}
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: var(--luck-color);
+  color: var(--luck-active-color);
 }

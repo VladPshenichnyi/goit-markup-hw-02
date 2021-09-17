@@ -32,6 +32,11 @@
   color: var(--accent-color-text);
 }
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .btn:hover,
@@ -150,10 +155,10 @@
 }
 /* ПОРТФОЛИО ФИЛЬТР*/
 .filter-btn {
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
+  text-align: center; */
   color: var(--first-color-text);
   background-color: var(--bg-color-second);
 }
